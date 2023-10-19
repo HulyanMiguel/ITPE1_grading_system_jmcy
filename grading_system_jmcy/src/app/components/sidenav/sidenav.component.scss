@@ -1,0 +1,56 @@
+/* Reset some default styles for the body and margins */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Rockwell, sans-serif;
+}
+
+/* Style for the side navigation container */
+.sidenav {
+  width: 250px;
+  height: 2000px;
+  position: fixed;
+  background-color: #cacacac1;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* Style for the logo */
+.logo img {
+  width: 190px; /* Adjust the logo width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-bottom: 20px;
+}
+
+/* Style for the navigation links */
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.sidenav li {
+  margin: 10px 0;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #4a4949;
+  font-size: 18px;
+}
+
+/* Style for the navigation links on hover */
+.sidenav a:hover {
+  background-color: #a4b06c;
+  font-size: 18px;
+  padding: 5px 60px;
+}
+
+/* Style for the content area */
+.content {
+  margin-left: 300px; /* Make room for the side navigation */
+  padding: 20px;
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: Rockwell, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+}
+
+.folder-container {
+  display: flex;
+ 
+}
+
+.folder-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 150px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.folder-card-logo {
+  background-color: #ce6c6c;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px 0;
+}
+
+.folder-card-logo img {
+  width: 25px;
+  height: 15;
+  margin: 0 auto;
+}
+
+.folder-card-content {
+  padding: 10px;
+}
+
+.folder-card-content h2 {
+  margin: 0;
+  font-size: 18px;
+}
